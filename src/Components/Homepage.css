@@ -1,4 +1,4 @@
-body {
+.backgroundbg {
     background-image: url("../Images/bg.svg");
 }
 
@@ -61,8 +61,12 @@ body {
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 35px;
     color: white;
+    background: none;
+    cursor: pointer;
+    border: none;
 }
 
 .cardpara {
@@ -92,4 +96,82 @@ body {
     color: #FFFFFF;
     text-shadow: 0px 4px 20px #000000;
 
+}
+
+.Productcard {
+    background: rgba(255, 255, 255, 0.57);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 15px 0px 0px 15px;
+    height: 700px;
+    margin-top: 80px;
+}
+
+.InHand{
+    font-weight: 600;
+font-size: 28px;
+margin: 20px 20px 0px 20px;
+line-height: 38px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.show{
+    background: #FFFFFF;
+    border-radius: 6px;
+    width: 100px;
+    height: 45px;
+    margin: 20px 20px 0px 10px;
+
+}
+
+.shows{
+    font-weight: 400;
+font-size: 20px;
+/* line-height: 25px; */
+/* identical to box height */
+
+text-align: center;
+/* padding: 30px; */padding: 10px;
+color: #000000;
+}
+
+.InHand1{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    margin: 20px;
+    
+    color: #000000;
+}
+
+.cardbg{
+    background: #FFFFFF;
+    margin-top: 20px;
+}
+
+.show1{
+    background: #FFFFFF;
+    border-radius: 6px;
+    width: 100px;
+    height: 45px;
+    margin: 10px 20px 0px 20px;
+
+}
+
+.shows1{
+    font-weight: 400;
+font-size: 20px;
+/* line-height: 25px; */
+/* identical to box height */
+
+text-align: center;
+/* padding: 30px; */padding: 10px;
+color: #000000;
+}
+
+.RowH{
+    height: 00px
 }
